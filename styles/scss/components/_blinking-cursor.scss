@@ -1,0 +1,17 @@
+	/*---------------BLINKING CURSOR FOR JS---------------*/
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+	@keyframes blink {
+   	@include blinking; 
+}
+	@-webkit-keyframes blink {
+    @include blinking;
+}
+	@-moz-keyframes blink {
+ 	@include blinking;
+}

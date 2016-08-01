@@ -1,0 +1,48 @@
+.mobile-menu__link {
+	display: block;
+	width: 100%;
+	text-align: center;
+	line-height: 3; 
+	text-decoration: none;
+	color: chooseColor("about");
+	background: chooseColor("header-footer");
+	&:hover {
+		background: chooseColor("primary");
+	}
+}
+.mobile-menu {
+	position: fixed;
+	bottom: 0;
+	margin-bottom: 48px;
+	width: 100%;
+ 	border-top: solid 1px chooseColor("about");
+ 	border-bottom: solid 1px chooseColor("about");
+ 	display: block;
+ 	z-index: 2;	 
+	transform: translateY(300px);
+	opacity: 0;
+	transition: transform 1s cubic-bezier(.6,.26,.64,1.54), opacity 1s ease;
+}
+.mobile-menu_show {
+	transform: translateY(0px);
+	opacity: 1;
+}
+.hamburger-header {
+	width: 100%;
+	margin-bottom: 0px;
+	background-color: chooseColor("header-footer");
+	position: fixed;
+	bottom: 0;
+	border-top: solid 1px chooseColor("about");
+	z-index: 3;
+}
+.hamburger-nav {
+	height: 48px;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+.mobile-menu {
+	display: block;
+}	
+

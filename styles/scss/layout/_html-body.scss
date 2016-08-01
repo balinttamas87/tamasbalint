@@ -1,0 +1,17 @@
+html {
+	width: 100%;
+	margin: 0;
+	height: 100%;
+	font-size: 16px;
+	background-color: chooseColor(header-footer);
+}
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: chooseColor();
+	color: chooseColor(about);
+	font-family: 'Abel', sans-serif;
+	font-size: 1rem;
+	height: 100%;
+	background-size: cover;
+}

@@ -1,0 +1,65 @@
+.contact-header {
+	text-align: center;
+	width: 100%;
+	font-size: 2.5rem;
+	font-family: 'Bitter', serif;
+}
+label, input {
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+}
+input {
+	width: 300px;
+	line-height: 1.5;
+	border-radius: 15px;
+	padding: 0;
+	border-style: none;
+	background: chooseColor("about");
+	transition: background-color 0.5s, color 0.5s;
+	font-size: 1rem;
+	height: 2em;
+}
+input:focus {
+	outline: none;
+	background-color: chooseColor("how-i-learn");
+	color: chooseColor("header-footer");
+	border: solid 1px chooseColor("header-footer");
+}
+.send-message {
+	background-color: white;
+	width: 10%;
+	transition: background-color 0.4s;
+}
+.send-message:hover {
+	border: solid 1px chooseColor("header-footer");
+	background-color: chooseColor("primary");
+	font-weight: bold;
+}
+.wrapper-contact{
+	position: relative;
+	top: 20px;
+}
+textarea {
+	width: 300px;
+	line-height: 1.5;
+	border-radius: 15px;
+	padding: 0;
+	border-style: none;
+	background: chooseColor("about");
+	text-align: center;
+	transition: background-color 0.5s, color 0.5s, text-align 0.5s;
+	margin: auto;
+	display: block;
+	padding-left: 2%;
+	resize: none;
+	overflow: auto;
+
+}
+textarea:focus {
+	outline: none;
+	background-color: chooseColor("how-i-learn");
+	color: chooseColor("header-footer");
+	border: solid 1px chooseColor("header-footer");
+	text-align: left;
+}

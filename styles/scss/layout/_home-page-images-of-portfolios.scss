@@ -1,0 +1,11 @@
+.home-page-images-of-portfolios {
+	display: block;
+	float: left;
+	width: calc(100% / 2);
+	padding: 0.5rem;
+
+	& img {
+		width: 100%;
+		height: auto;
+	}
+}

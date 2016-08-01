@@ -1,0 +1,73 @@
+@mixin assignColor($list) {
+ 	@each $social-link-name in $list {
+ 		a:hover {
+ 			.#{$social-link-name} & {
+ 				color: chooseColor(#{$social-link-name})
+ 			}
+ 		}
+ 	}
+ }
+
+@mixin link-in-paragraph($color-of-link) {
+	color: chooseColor(#{$color-of-link});
+	font-weight: bold;
+		&:visited {
+			text-decoration: none;
+		}
+		&:hover {
+			text-decoration: underline;
+		}
+}
+
+// THIS MIXING CREATES A CLASS AND THEN ASSIGNS A COLOR TO IT 
+//AND ALSO CALLS ANOTHER MIXIN ("link-in-paragraph") TO INCLUDE SHARED PROPERTIES
+//_______________________________________________________________________________
+
+@mixin link-colors($site-list) {
+	@each $item in $site-list {
+		.link-#{$item} {
+			@include link-in-paragraph(#{$item});
+		}
+	}
+}
+
+@mixin offset($height: -40px, $margin-top: 40px) {
+	display: block;
+	content: '';
+	visibility: hidden;
+	height: $height;
+	margin-top: $margin-top;
+}
+
+@mixin sections($bg-color: chooseColor("my-work"), $top-padding: false) {
+	height: 100%;
+	color: chooseColor("header-footer");
+	background-color: $bg-color;
+	@if $top-padding {
+	top-padding: $top-padding;
+	}
+}
+
+@mixin blinking {
+	0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@mixin divider-circle ($diameterOfCircle: 10px, $border:solid 1px chooseColor("header-footer"), $bgColorOfCircle: chooseColor("my-work")) {
+	border-radius: 50%;
+	width: $diameterOfCircle;
+	height: $diameterOfCircle;
+	border: $border;
+	line-height: 20px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -6px;
+	background-color: $bgColorOfCircle;
+}
+
+@mixin section () {
+	height: 100%;
+	background-color: chooseColor($key: "primary");
+}

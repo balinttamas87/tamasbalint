@@ -1,0 +1,13 @@
+.my-work {
+	@include sections(chooseColor("my-work"))
+}
+.how-i-learn {
+	@include sections(chooseColor("how-i-learn"), 20px)
+}
+.about {
+	@include sections(chooseColor("about"), 20px)
+}
+.contact-section {
+	@include sections(chooseColor("primary"), 20px);
+	height: 80%;
+}

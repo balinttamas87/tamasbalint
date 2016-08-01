@@ -1,0 +1,16 @@
+//============================================================================
+//CREATE AND COLOR THE CIRCLE (PART OF THE DIVIDER) UNDER THE SECTION HEADERS
+//============================================================================
+
+.divider-circle-my-work {
+	@include divider-circle;
+}
+.divider-circle-how-i-learn {
+	@include divider-circle($bgColorOfCircle: chooseColor("how-i-learn"));
+}
+.divider-circle-about {
+	@include divider-circle($bgColorOfCircle:chooseColor("about"));
+}
+.divider-circle-contact-section {
+	@include divider-circle($bgColorOfCircle:chooseColor("primary"));
+}

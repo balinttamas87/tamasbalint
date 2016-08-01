@@ -1,0 +1,98 @@
+	/*---------------MEDIA QUERIES---------------*/
+
+@media screen and (max-width: 1280px) {
+	.mobile-menu {
+		display: none;
+	}
+	.send-message {
+		width: 125px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.home-page-images-of-portfolios {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.flickity-prev-next-button {
+	   	display: inline-block;
+	}
+}
+@media screen and (max-width: 768px) {
+	.photo-of-me {
+		margin-left: 0 inherit 0 inherit;
+	}
+	.my-work {
+		height: auto;
+	}
+	.home-page-images-of-portfolios {
+		width: 100%;
+		padding: 20px;
+		float: none;
+	}
+	.website-images {
+		height: 100%;
+		margin-top: 0;
+	}
+}
+@media screen and (max-width: 640px) {
+	.contact-section {
+		min-height: 480px;
+	}
+}
+@media screen and (max-width: 640px) and (orientation: landscape) {
+	.section {
+		height: auto;
+	}
+	.contact-section {
+		height: 75%;
+		min-height: 500px;
+	}
+	.main-page {
+		min-height: 500px;
+	}
+	.welcome-wrapper {
+	    position: relative;
+	    top: 80px;
+	}
+}
+@media screen and (max-width: 560px) {
+	h2 {
+		max-width: 50%;
+		min-width: 50%;
+	}
+}
+@media screen and (min-width: 480px) {
+	.hamburger-header {
+		display: none;
+	}
+}
+@media screen and (max-width: 480px) {
+	.mobile-menu {
+		display: block;
+	}
+	.main-page-header {
+		display: none;
+	}
+	.home-page-images-of-portfolios {
+		width: 100%;
+		float: none;
+	}
+	.offset:before {
+		@include offset(0,0);
+	}
+	.how-i-learn, .about {
+		height: auto;
+	}
+	.footer {
+	 	margin-bottom: 48px;
+	}
+	.nav__link_icon {
+		&:hover {
+			border: none;
+		}
+	}
+	.contact-section {
+	height: 75%;
+	}
+}

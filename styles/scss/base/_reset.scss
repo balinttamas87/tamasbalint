@@ -1,0 +1,20 @@
+/*--------------------------------------------------
+	    MY CSS STARTS HERE, THE ABOVE IS NORMALIZE
+-----------------------------------------------------*/
+* {
+	box-sizing: border-box;
+}
+figure {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+a, button {
+	cursor: pointer;
+}
+button:focus, a:focus {
+	outline:none;
+	background: transparent;
+}

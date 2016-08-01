@@ -1,0 +1,20 @@
+@function chooseColor( $key: "primary" ) {
+	@if map-has-key($merged-color-maps, $key) {
+		@return map-get($merged-color-maps, $key);
+	}
+	@else {
+		@warn "    "KEY($key)" ISN\'T in color-map";
+	}
+};
+
+
+
+
+
+
+
+
+
+
+
+

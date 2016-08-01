@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Abel");
+@import url("https://fonts.googleapis.com/css?family=Bitter");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+$font-map: (
+	"color-base": about,
+	"family-base": ("Abel" , sans-serif),
+	"family-header": ("Bitter", serif),
+	"size-base": 16px,
+	"line-height-base": 1.5,
+	"h1": 2.5rem,
+	"h2": 1.5rem
+)

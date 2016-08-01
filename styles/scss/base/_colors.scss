@@ -1,0 +1,28 @@
+// COLOR MAPS
+
+$base-color-map: (
+	'primary': #479ccf,
+	'header-footer': #2d3538,
+	'my-work': #efe9e5,
+	'how-i-learn': #decba5,
+	'about': #f5f5f5,
+	);
+$social-link-hover-color-map: (
+	"facebook": #3B5998,
+	"twitter": #4099FF,
+	"mail": #dc4e41,
+	"linkedin": #0077b5,
+	"github": #999,
+	);
+$other-color-map: (
+	"mcrfred": #3b5998,
+	"frontendfront": #2DBF80,
+	"codeschool": #4CADC1,
+	"stackoverflow": #F48024,
+	"mdn": #2386C8,
+	);
+
+// MERGED COLOR MAPS
+$base-and-social-color-map-merged: map-merge($base-color-map, $social-link-hover-color-map);
+
+$merged-color-maps: map-merge($base-and-social-color-map-merged, $other-color-map);

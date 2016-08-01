@@ -1,0 +1,31 @@
+	/*---------------MAIN NAVIGATION---------------*/
+
+.nav {
+	display: inline-block;
+	width: 100%;
+	line-height: 3;
+	text-align: center;
+
+		&__link {
+			color: #FFF7E8;
+			text-decoration: none;
+			transition: color 0.4s, border-bottom 0.4s;
+
+				&:hover {
+					padding-bottom: 2px;
+					color: #479ccf;
+					border-bottom: 1px solid #479ccf;
+				}
+		}
+			
+
+		&__item {
+			display: inline;
+			text-decoration: none;
+			padding-right: 10%;
+
+				&_last {
+					padding: 0;
+				}
+	}
+}

@@ -1,0 +1,12 @@
+h2 {
+	font-family: map-get($font-map, "family-header"); // from base/_font.scss
+	color: chooseColor(header-footer);
+	padding-top: 50px;
+	border-bottom: solid 1px chooseColor("header-footer");
+	max-width: 25%;
+	min-width: 25%;	
+	text-align: center;
+	margin: auto;
+	padding-bottom: 1rem;
+	font-size: map-get($font-map, "h2");
+}

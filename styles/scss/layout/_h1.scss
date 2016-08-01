@@ -1,0 +1,4 @@
+h1 {
+	font-family: map-get($font-map, "family-header"); // from base/_font.scss
+	font-size: map-get($font-map, "h1"); // from base/_font.scss
+}
