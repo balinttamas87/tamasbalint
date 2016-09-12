@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="images/icons/code.png" type="image/x-icon">
 
     <!--___________CAROUSEL CSS_____________-->
-    <link rel="stylesheet" href="https://npmcdn.com/flickity@2.0/dist/flickity.css" media="screen">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css" media="screen">
 
 </head>
 <body>
