@@ -55,15 +55,34 @@
 				
 				<a class="home-page-images-of-portfolios carousel-cell" href="#topOfThePage">
 					<figure>
-						<img src="images/imagesOfWebsites/1.png">
+						<img src="https://s26.postimg.org/homhf2gex/website_portfolio.jpg" alt="Website portfolio">
+					</figure>
+				</a>
+
+				<a class="home-page-images-of-portfolios carousel-cell" target="blank" href="http://codepen.io/tamasbalint/full/oYOgNb/">
+					<figure>
+						<img src="https://s26.postimg.org/a7d9zuqvt/website_fcc_personal_portfolio.jpg" alt="Website fcc personal portfolio">
+					</figure>
+				</a>
+
+				<a class="home-page-images-of-portfolios carousel-cell" target="blank" href="http://codepen.io/tamasbalint/full/ZBwGYy/">
+					<figure>
+						<img src="https://s26.postimg.org/4uoflq2zd/website_tribute_elon_musk.jpg" alt="Website Elon Musk Tribute">
 					</figure>
 				</a>
 				
-				<a class="home-page-images-of-portfolios carousel-cell" href="websites/LakeDistrict/index.html">
+				<a class="home-page-images-of-portfolios carousel-cell" target="blank" href="https://github.com/balinttamas87/bookingConfirmation">
 					<figure>
-						<img src="images/imagesOfWebsites/2.png">
+						<img src="https://s26.postimg.org/fco4sbzix/website_booking_confirmation_gif.gif" alt="Website booking confirmation">
 					</figure>
 				</a>
+
+				<a class="home-page-images-of-portfolios carousel-cell" target="blank" href="http://www.tamasbalint.com/websites/LakeDistrict/index.html">
+					<figure>
+						<img src="https://s26.postimg.org/umiy2eopl/website_lake_district.jpg" alt="Website lake district">
+					</figure>
+				</a>
+
 			</div>
 	</section>
 
@@ -146,7 +165,7 @@
 	<header class="hamburger-header">
 		<nav class="hamburger-nav">
 			<li class="nav__item">
-				<a class="nav__link nav__link_icon" href="tel:07446371650">
+				<a class="nav__link nav__link_icon" href="tel:07984305222">
 					<i class="fa fa-phone fa-2x"></i>
 				</a>
 			</li>
@@ -220,6 +239,15 @@
 						</a>
 					</li>
 
+					<li class="footer-contact-list-social-item free-code-camp">
+						<a href="https://www.freecodecamp.com/balinttamas87">
+							<span class="fa-stack fa-sm">
+	  							<i class="fa fa-square-o fa-stack-2x"></i>
+	  							<i class="fa fa-free-code-camp fa-stack-1x"></i>
+							</span>
+						</a>
+					</li>
+
 					<li class="footer-contact-list-social-item github">
 						<a href="https://www.github.com/balinttamas87">
 							<span class="fa-stack fa-sm">
@@ -231,7 +259,7 @@
 				</ul>
 			</li>
 			<li>Tamas Balint</li>
-			<li><a class="tel" href="tel:07446371650">07446 371 650</a></li>
+			<li><a class="tel" href="tel:07984305222">07984 305 222</a></li>
 			<li><a class="mail" href="mailto:mail@tamasbalint.com">balint.tamas87@gmail.com<a></li>
 		</ul>
 	</footer>

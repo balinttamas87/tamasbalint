@@ -27,7 +27,7 @@
 	}
 	.home-page-images-of-portfolios {
 		width: 100%;
-		padding: 20px;
+		padding: 20px 0;
 		float: none;
 	}
 	.website-images {
@@ -36,27 +36,30 @@
 	}
 }
 @media screen and (max-width: 640px) {
-	.contact-section {
-		min-height: 480px;
-	}
+	// .contact-section {
+	// 	min-height: 480px;
+	// }
 }
 @media screen and (max-width: 640px) and (orientation: landscape) {
-	.section {
-		height: auto;
-	}
-	.contact-section {
-		height: 75%;
-		min-height: 500px;
-	}
-	.main-page {
-		min-height: 500px;
-	}
-	.welcome-wrapper {
-	    position: relative;
-	    top: 80px;
-	}
+	// .section {
+	// 	height: auto;
+	// }
+	// .contact-section {
+	// 	height: 75%;
+	// 	min-height: 500px;
+	// }
+	// .main-page {
+	// 	min-height: 500px;
+	// }
+	// .welcome-wrapper {
+	//     position: relative;
+	//     top: 80px;
+	// }
 }
 @media screen and (max-width: 560px) {
+	.website-images {
+		width: 100%;
+	}
 	h2 {
 		max-width: 50%;
 		min-width: 50%;
