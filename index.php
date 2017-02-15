@@ -65,6 +65,12 @@
 					</figure>
 				</a>
 
+				<a class="home-page-images-of-portfolios carousel-cell" target="blank" href="http://www.tamasbalint.com/websites/RandomQuoteMachine/index.html">
+					<figure>
+						<img src="https://s26.postimg.org/kfhyhan4p/website_fcc_random_quote_machine.jpg" alt="Website fcc random quote machine">
+					</figure>
+				</a>
+
 				<a class="home-page-images-of-portfolios carousel-cell" target="blank" href="http://codepen.io/tamasbalint/full/ZBwGYy/">
 					<figure>
 						<img src="https://s26.postimg.org/4uoflq2zd/website_tribute_elon_musk.jpg" alt="Website Elon Musk Tribute">
