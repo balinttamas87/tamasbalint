@@ -65,7 +65,7 @@
 					</figure>
 				</a>
 
-				<a class="home-page-images-of-portfolios carousel-cell" target="blank" href="http://www.tamasbalint.com/websites/RandomQuoteMachine/index.html">
+				<a class="home-page-images-of-portfolios carousel-cell" target="blank" href="https://codepen.io/tamasbalint/full/ygEjBd">
 					<figure>
 						<img src="https://i.postimg.cc/fTtvgktY/website-fcc-random-quote-machine.jpg" alt="Website fcc random quote machine">
 					</figure>
