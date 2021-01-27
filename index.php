@@ -55,37 +55,37 @@
 				
 				<a class="home-page-images-of-portfolios carousel-cell" href="#topOfThePage">
 					<figure>
-						<img src="https://s26.postimg.org/homhf2gex/website_portfolio.jpg" alt="Website portfolio">
+						<img src="https://i.postimg.cc/28Lbfn3B/website-portfolio.jpg" alt="Website portfolio">
 					</figure>
 				</a>
 
 				<a class="home-page-images-of-portfolios carousel-cell" target="blank" href="http://codepen.io/tamasbalint/full/oYOgNb/">
 					<figure>
-						<img src="https://s26.postimg.org/a7d9zuqvt/website_fcc_personal_portfolio.jpg" alt="Website fcc personal portfolio">
+						<img src="https://i.postimg.cc/RVJ90R74/website-fcc-personal-portfolio.jpg" alt="Website fcc personal portfolio">
 					</figure>
 				</a>
 
 				<a class="home-page-images-of-portfolios carousel-cell" target="blank" href="http://www.tamasbalint.com/websites/RandomQuoteMachine/index.html">
 					<figure>
-						<img src="https://s26.postimg.org/kfhyhan4p/website_fcc_random_quote_machine.jpg" alt="Website fcc random quote machine">
+						<img src="https://i.postimg.cc/fTtvgktY/website-fcc-random-quote-machine.jpg" alt="Website fcc random quote machine">
 					</figure>
 				</a>
 
 				<a class="home-page-images-of-portfolios carousel-cell" target="blank" href="http://codepen.io/tamasbalint/full/ZBwGYy/">
 					<figure>
-						<img src="https://s26.postimg.org/4uoflq2zd/website_tribute_elon_musk.jpg" alt="Website Elon Musk Tribute">
+						<img src="https://i.postimg.cc/5NYKzKKK/website-tribute-elon-musk.jpg" alt="Website Elon Musk Tribute">
 					</figure>
 				</a>
 				
 				<a class="home-page-images-of-portfolios carousel-cell" target="blank" href="https://github.com/balinttamas87/bookingConfirmation">
 					<figure>
-						<img src="https://s26.postimg.org/fco4sbzix/website_booking_confirmation_gif.gif" alt="Website booking confirmation">
+						<img src="https://i.postimg.cc/WbDSk8w4/website-booking-confirmation-gif.gif" alt="Website booking confirmation">
 					</figure>
 				</a>
 
 				<a class="home-page-images-of-portfolios carousel-cell" target="blank" href="http://www.tamasbalint.com/websites/LakeDistrict/index.html">
 					<figure>
-						<img src="https://s26.postimg.org/umiy2eopl/website_lake_district.jpg" alt="Website lake district">
+						<img src="https://i.postimg.cc/WbDB6w1z/website-lake-district.jpg" alt="Website lake district">
 					</figure>
 				</a>
 
